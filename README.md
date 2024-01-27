@@ -7,3 +7,5 @@ Start the server<br>
 
 Open browser and access this url<br>
 <a target="_blank" href="http://localhost:3000">localhost:3000</a>
+
+Clear content of <code>data.json</code> except the squre <code>[]</code>
