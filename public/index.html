@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debt Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Debt Manager</h1>
+        <form id="debtForm">
+            <input type="text" id="creditor" placeholder="Creditor">
+            <input type="number" id="amount" placeholder="Amount">
+            <button type="submit">Add Debt</button>
+        </form>
+    
+        <!-- Section to display summary -->
+        <section id="summarySection">
+            <h2>Debt Summary</h2>
+            <div id="totalDebt"></div> <!-- Display total debt -->
+            <div id="unpaidCreditorSummary"></div>
+            <div id="totalPaidDebt"></div>
+            <div id="paidCreditorSummary"></div>
+            <h2>Creditor Summary</h2>
+            <div id="creditorSummary"></div> <!-- Display summary for each creditor -->
+        </section>
+    
+        <ul id="debtList"></ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

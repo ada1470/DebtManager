@@ -1,0 +1,87 @@
+/* Reset default browser styles */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply default font family */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Set a light background color */
+    color: #333; /* Set default text color */
+}
+
+/* Center the container */
+.container {
+    max-width: 600px;
+    margin: 20px auto; /* Center horizontally with top and bottom margin */
+    padding: 20px;
+    background-color: #fff; /* Set container background color */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the list */
+ul {
+    list-style-type: none;
+}
+
+/* Style the list items */
+li {
+    padding: 10px 0; /* Add vertical spacing between items */
+    border-bottom: 1px solid #eee; /* Add a bottom border between items */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Style the span inside list items */
+li span {
+    flex-grow: 1; /* Allow span to take up remaining space */
+}
+
+/* Style the checkbox */
+input[type="checkbox"] {
+    margin-right: 10px; /* Add space between checkbox and text */
+    width: 30px;
+    height: 30px;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    padding: 10px; /* Add padding to increase input field size */
+    border: 1px solid #ccc; /* Add border for visual distinction */
+    border-radius: 5px; /* Add rounded corners */
+    width: 230px; /* Make input fields full width */
+    box-sizing: border-box; /* Include padding and border in the width */
+    margin-bottom: 10px; /* Add space below input fields */
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    padding: 12px 20px; /* Add padding to increase button size */
+    background-color: #4caf50; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Change button color on hover */
+button[type="submit"]:hover {
+    background-color: #45a049; /* Darken button background color */
+}
+
+#unpaidCreditorSummary {
+    border: 1px solid darkolivegreen;
+    padding: 20px;
+    background-color: azure;
+}
+
+#paidCreditorSummary {
+    border: 1px solid darkolivegreen;
+    padding: 20px;
+    background-color: gainsboro;
+}
